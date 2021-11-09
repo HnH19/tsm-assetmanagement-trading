@@ -8,10 +8,10 @@ import sqlalchemy
 import MySQLdb
 
 _config_dict = {'drivername':'mysql',
-                'host': '10.21.2.20',
-                "username": 'federicofavero',
-                'password': 'risk@001',
-                'database': 'riskdb',}
+                'host': 'IP',
+                "username": 'jardieljunior',
+                'password': '',
+                'database': '',}
 
 
 def build_engine(interface_type="engine",db_name=None,config_dict=_config_dict,dbcredential="dbcredential.conf"):
