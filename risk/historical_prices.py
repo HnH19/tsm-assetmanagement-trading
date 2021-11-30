@@ -42,5 +42,6 @@ class Equities(Portfolio):
             df['ticker'] = t
             final = final.append(df)
             self.hist_equities_prices = final
+        self.hist_equities_prices.to_excel('hist_prices.xlsx')
             
             
